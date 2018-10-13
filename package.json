@@ -1,0 +1,28 @@
+{
+  "name": "ds-graphql",
+  "version": "0.0.1",
+  "main": "index.js",
+  "module": "main.js",
+  "author": {
+    "name": "Paul Chavard",
+    "email": "paul.chavard@beta.gouv.fr"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.1.5",
+    "apollo-server": "^2.1.0",
+    "esm": "^3.0.84",
+    "graphql": "^14.0.2",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.14.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint:js": "eslint ."
+  }
+}
